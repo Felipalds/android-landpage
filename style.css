@@ -37,6 +37,13 @@ h1{
     letter-spacing: var(--big-h1-letter-spacing);
     margin-bottom: 20px;
 }
+h2{
+    font-family: var(--main-font-family);
+    font-weight: var(--big-h1-font-weight);
+    letter-spacing: var(--big-h1-letter-spacing);
+    margin-bottom: 10px;
+
+}
 p{
     font-family: var(--main-font-family);
     font-size: var(--p-font-size);
@@ -112,7 +119,8 @@ nav > ul > div > li:hover{
     border-color:white;
 }
 main{
-    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .flex-center{
